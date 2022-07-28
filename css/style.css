@@ -1,0 +1,525 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 4rem;
+}
+
+section {
+    padding: 5rem 2rem;
+}
+
+h1 {
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+hr {
+    border-style: none;
+    height: 0.1px;
+    background-color: black;
+}
+
+.header-line {
+    width: 90px;
+    height: 5px;
+    background-color: #388E3C;
+}
+
+        /* Testimonials Section */
+
+.testimonials>div {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 25px;    
+}
+
+.card1, .card2 {
+    padding: 2rem;
+    box-shadow: 0px 0px 15px #fbf2f2;
+}
+
+.card1 {
+    background-color: white;
+}
+
+.card2 {
+    background-color: #f7fff9;
+}
+
+.testimonial-card p {
+    margin-bottom: 12px;
+}
+
+.testimonial-card h5 {
+    color: #388E3C;
+    padding-top: 2rem;
+}
+
+        /* Team Section */
+
+.team-section {
+    background-color: whitesmoke;
+}
+
+.team-section article{
+    display: flex;
+    gap: 1rem;
+    Padding-inline: 2rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.lead-photocard {
+    width: 49%;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 5px darkgray;
+    margin-top: 18px;
+    background-color: whitesmoke;
+}
+
+.lead-photocard img{
+    width: 300px;
+    height: 300px;
+    border-radius: 16px 0 0 16px;
+}
+
+.team-photocard {
+    position: relative;
+    top: 8rem;
+    right: 12rem;
+}
+
+.team-photocard .team-link {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team-photocard .team-link:hover {
+    color: #388E3C;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.team-photocard a {
+    text-decoration: none;
+}
+
+.team-photocard img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-left: 6px;
+}
+
+#pic2, #pic3, #pic4 {
+    margin-left: -16px;
+}
+
+#pic2 {
+    opacity: 0.9;
+}
+
+#pic3 {
+    opacity: 0.8;
+}
+
+#pic4 {
+    opacity: 0.6;
+}
+
+.name-block {
+    display: inline-block;
+    position: relative;
+    bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 45%;
+}
+
+article h5 {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+article p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+article p:last-of-type {
+    margin-bottom: 32px;
+}
+
+.sm-links a {
+    color: black;
+    padding-right: 5px;
+}
+
+.sm-links a:hover {
+    font-size: 20px;
+    color: #1355f0;
+}
+
+    /* Community Section */
+
+.community {
+    background: linear-gradient(to right, rgba(215, 247, 227, 1), rgba(215, 247, 227, 0), rgba(215, 247, 227, 1));
+    
+}
+
+.community .community-breakdown {
+    display: flex;
+}
+
+.community-breakdown div {
+    padding-left: 100px;
+    margin: 2rem 2rem 2rem 0;
+}
+
+.community-breakdown h4 {
+    font-family: 'Monument Extended', sans-serif;
+    font-size: 64px;
+    color: #2E7D32;
+}
+
+.community-breakdown p {
+    width: 99%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+        /* Footer Section */
+
+footer {
+    padding: 0 2rem;
+    background-color: #000000;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-right: 18rem;
+}
+
+.footer-div {
+    display: flex;
+}
+
+.footer-container {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.footer-container p {
+    padding: 8rem 2rem 2rem;
+}
+
+.footer-container a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-container a:hover {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer hr {
+    border-style: none;
+    height: 0.5px;
+    background-color: rgb(162, 159, 159);
+    opacity: 0.3;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+
+
+
+    /* Mobile Phone Screens */
+
+@media (max-width: 627px) and (min-width:320px){
+
+body {
+    padding-inline: 0;
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 48px;
+}
+
+.header-line {
+    width: 50px;
+    height: 5px;
+    background-color: #388E3C;
+}
+    
+    /* Testimonial Section */
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+}
+    
+.testimonials>div {
+    font-size: 12px;
+    line-height: 16px;    
+}    
+
+    /* Team Section */
+
+.team-section article{
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-photocard {
+    width: 79vw;
+    height: 500px;
+    margin: 18px auto 18px;
+}
+
+.lead-photocard img{
+    width: 100%;
+    height: 50%;
+    border-radius: 16px 16px 0 0;
+}
+
+.name-block {
+    display: block;
+    position: relative;
+    top: 2rem;
+    padding-left: 20px;
+}
+
+article h5 {
+    width: 70vw;
+}
+
+article p {
+    width: 100vw;
+}
+
+.team-photocard {
+    position: relative;
+    left: 3rem;
+    padding-bottom: 8rem;
+}
+
+.team-photocard img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+    /* Community Section */
+
+.community .community-breakdown {
+    flex-direction: column;
+}
+
+.community-breakdown div {
+    padding-left: 0;
+    margin: 2rem 2rem;
+}
+
+    /* Footer Section */
+   
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+   
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 3rem;
+    flex-wrap: wrap;
+}
+            
+.footer-container p {
+    padding: 14rem 3rem 2rem 0;
+}
+     
+.footer-container p:nth-last-of-type(2) {
+    padding-top: 0;
+    padding-right: 5.2rem;
+}
+
+.footer-container p:nth-last-of-type(1) {
+    padding-top: 0;    
+}
+
+.footer-container a {
+    font-size: 16px;
+}
+            
+.footer-container a:hover {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer hr {
+    margin-top: 3rem;
+}
+
+
+}
+
+
+/* Laptop Screens */
+@media only screen and (max-width:1400px){
+    
+     /* Footer Section */
+    .logo {
+        margin-right: 12rem;
+    }
+     
+}
+
+
+/* Tablet Screens */
+@media (max-width:962px) and (min-width:626px){
+
+    /* Testimonial Section */
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials>div {
+    font-size: 20px;
+    line-height: 28px;    
+}
+
+    /* Team Section */
+
+.team-section {
+    padding-bottom: 16rem;
+}
+
+.team-section article{
+    display: flex;
+    flex-direction: column;    
+} 
+
+.lead-photocard {    
+    width: 72vw;
+}
+
+.name-block {
+    width: 50%;
+    font-size: 18px;
+}
+
+.name-block h5 {
+    font-size: 24px;
+}
+
+.name-block p {
+    font-size: 16px;
+}
+
+.team-photocard {
+    position: relative;
+    left: 13rem;
+}
+
+#pic2, #pic3, #pic4 {
+    margin-left: -20px;
+}
+
+.team-photocard .team-link {
+    font-size: 24px;
+}
+
+.team-photocard .team-link:hover {
+    color: #388E3C;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.team-photocard img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+
+    /* Community Section */
+
+.community .community-breakdown {
+    display: flex;
+    flex-direction: column;
+}
+
+
+     /* Footer Section */
+        
+.logo {
+    width: 300px;
+    height: 300px;
+    margin-right: 0;
+    margin-bottom: 4rem;
+}
+        
+.footer-container {
+    display: inline-flex;
+    justify-content: flex-start;
+    position: absolute;
+    left: 9rem;
+}
+        
+.footer-container p {
+    padding: 14rem 3rem 3rem 0;
+}
+        
+.footer-container a {
+    font-size: 24px;
+}
+        
+.footer-container a:hover {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+}
